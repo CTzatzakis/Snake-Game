@@ -64,20 +64,27 @@ class Snake extends Entity {
     }
 
     handleKeyBoardInput(keyboard) {
+        let move = false;
         if (keyboard.isKeyPressed(38)) { // up
             this._direction = 'up';
+            move = true;
         }
 
         if (keyboard.isKeyPressed(37)) { // left
             this._direction = 'left';
+            move = true;
         }
 
         if (keyboard.isKeyPressed(39)) { // right
             this._direction = 'right';
+            move = true;
         }
 
         if (keyboard.isKeyPressed(40)) { // down
             this._direction = 'down';
+            move = true;
+        }
+        if(move) { document.getElementById('nav').innerHTML = "";
         }
     }
 	
