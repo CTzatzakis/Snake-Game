@@ -17,15 +17,15 @@
 	<div id="board">
 	<div class="container px-4"> 
 		<div id="header" class="header row gx-5"> 
-			<div id="cel1" class="cell col-xs-4 p-3"> 
+			<div id="cel1" class="cell col-xs-4 p-3">
 				<div class=" cellScreen p-3">
 					<span style="font-family: Orbitron, sans-serif;" class="sbakeFoodCount" id="snakeFood">0</span>
 				</div>
-			</div> 
+			</div> <!--
 			<div id="cel2" class="cell col-xs-4 p-3"> 
 				<div class=" cellScreen p-3"></div>
-			</div> 
-			<div id="cel3" class="cell col-xs-4 p-3">  
+			</div>  -->
+			<div id="cel3" class="cell col-xs-8 p-3">
 				<div class=" cellScreen p-3">
 					<p class="time" ><span style="font-family: Orbitron, sans-serif;" id="time">0</span></p> 
 				</div>
@@ -38,7 +38,7 @@
 	<div class="container px-4"> 
 		<div id="footer" class="footer row gx-5"> 
 			<div id="fCell1" class="footer_cell col-xs-4 p-3 text-right">
-					<button class=" p-3" type="button" onclick="getElementById('nav').innerHTML ='left'"> <i class="arrow left"></i> </button>
+					<button class="sideButtons p-3" type="button" onclick="getElementById('nav').innerHTML ='left'"> <i class="arrow left"></i> </button>
 			</div> 
 			<div id="fCell2" class="footer_cell col-xs-4 p-3">
 				<div class="centerButtonsContainer">
@@ -49,7 +49,7 @@
 				</div>
 			</div> 
 			<div id="fCell3" class="footer_cell col-xs-4 p-3 text-left">
-					<button class=" p-3" type="button" onclick="getElementById('nav').innerHTML ='right'"><i class="arrow right"></i> </button>
+					<button class="sideButtons p-3" type="button" onclick="getElementById('nav').innerHTML ='right'"><i class="arrow right"></i> </button>
 			</div>
 		</div>
 		<span id="nav">  </span>

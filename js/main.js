@@ -38,8 +38,8 @@ const initialize = function() {
 
     // Run logic
     setInterval(function () {
-        snake.handleKeyBoardInput(keyboard);
         snake.handleScreenInput(document.getElementById('nav').innerHTML);
+        snake.handleKeyBoardInput(keyboard);
     }, 1000/60);
 
     setInterval(function () {

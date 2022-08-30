@@ -59,7 +59,7 @@ body {
 	border-style: solid;
 	border-width: 10px;
 	border-color:gray;
-	margin: 16% 16% auto 16%;
+	margin: 6% 16% 6% 16%;
 }
 
 #modalContainer {
@@ -180,7 +180,7 @@ code span {
 
 .footer_cell {
 	width:30px;
-	height:115px;
+	height:165px;
 }
 
 .arrow {
@@ -214,6 +214,11 @@ code span {
 	width: 100%;
 	height: 50%;
 }
+.sideButtons {
+	width:70%;
+	height:100%;
+}
+
 Button {
 	width:100%;
 	height:100%;
